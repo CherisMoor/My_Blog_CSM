@@ -23,6 +23,10 @@ public class BlogPost {
         this.blogEntry = blogEntry;
     }
 
+    public long getId() {
+        return id;
+    }
+
     public String getTitle() {
         return title;
     }

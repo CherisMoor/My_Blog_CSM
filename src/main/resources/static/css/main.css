@@ -11,7 +11,12 @@ h1 {
   color: lightblue;
 }
 body {
-  opacity: 0.75;
+  opacity: 0.8;
+  box-shadow: 15px 15px 15px 15px black;
+}
+p {
+  background-color: rgb(13, 80, 134);
+  color: lightblue;
 }
 .container {
   color: aliceblue;
@@ -20,4 +25,16 @@ body {
 .navbar {
   opacity: 1 !important;
   background-color: rgb(13, 80, 134) !important;
+}
+.card {
+  color: darkblue;
+  background-color: cornflowerblue;
+  box-shadow: 8px 8px 8px 8px rgb(0, 2, 102);
+}
+.modal {
+  color: darkblue;
+  box-shadow: 2px 2px inset black;
+}
+.modal-title {
+  text-decoration: underline;
 }
